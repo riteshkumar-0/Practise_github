@@ -37,3 +37,10 @@ Branching
      git checkout [branch-name]:- Switches to the specified branch and updates the working directory.
      git checkout -b [branch-name]:- Create a new branch and switch to newly created
     •git merge [branch]:-Merges the specified branch’s history into the current branch.
+ 
+ After mergin we can Delete the branch 
+
+ git branch -d branch-name(locally delete the branch i.e where you currently working )
+
+
+git push origin --delete branch name(to delete the branch from remote i.e from github)
